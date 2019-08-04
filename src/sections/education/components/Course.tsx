@@ -8,8 +8,8 @@ interface CourseProps extends HTMLAttributes<HTMLDivElement> {
   due: string;
 }
 
-const Course = ({ name, institution, due }: CourseProps) => (
-  <div>
+const Course = ({ name, institution, due, className }: CourseProps) => (
+  <div className={className}>
     <Heading.Tertiary>
       {name}
     </Heading.Tertiary>
