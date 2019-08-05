@@ -82,7 +82,7 @@ const Experiences = () => (
         company="Dr Vendedor"
         roles={
           <Experience.Role
-            title="Junior Developer"
+            title="Junior Mobile Developer"
             span="MAR 2018 - AUG 2018"
           />
         }
@@ -119,7 +119,7 @@ const Experiences = () => (
         company="Dr Tis"
         roles={
           <Experience.Role
-            title="Trainee Developer"
+            title="Trainee Full Stack Developer"
             span="JAN 2017 - MAR 2018"
           />
         }

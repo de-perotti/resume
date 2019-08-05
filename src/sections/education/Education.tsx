@@ -22,7 +22,7 @@ const Education = () => (
       <Course
         className="education-section__course"
         name="Materials Engineering"
-        institution="Mackenzie Presbiterian University"
+        institution="Mackenzie Presbyterian University"
         due="Incomplete, 9th sem"
       />
     </Courses>
