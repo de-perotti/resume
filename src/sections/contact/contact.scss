@@ -27,3 +27,9 @@
 .contacts-wrapper * {
   text-align: right;
 }
+
+.contact-section__phone-number,
+.contact-section__email-address {
+  display: block;
+  text-decoration: none;
+}

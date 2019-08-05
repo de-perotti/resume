@@ -25,22 +25,25 @@ const Experiences = () => (
           span="FEB 2019 - Today"
         >
           <Experience.DescriptionItem>
-            Criação de uma plataforma de exames
+            Creation of a platform for exams
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Definição de APIs e arquitetura (NestJS e AWS)
+            API and architecture definition (NestJS e AWS)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Implementação de Design System da Quero Educação (React e SCSS)
+            Implementation of Quero's Design System (React e SCSS)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Foco em microsserviços, auxiliando no desmembramento do monolito (Rails)
+            Focus on microservices, supporting the tear down of the monolith (Rails)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Experimentação e construção de serviço de feature flags (Unleash)
+            Proof of Concept of a self-hosted feature flag service (Unleash)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Elaboração de documentação com Storybook
+            Presented a talk about regression testing with storybook for a meetup hosted by Quero (MeetupJS)
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Construction of documentation with Storybook
           </Experience.DescriptionItem>
         </Experience.JobDescription>
 
@@ -49,25 +52,25 @@ const Experiences = () => (
           span="AUG 2018 - FEB 2019"
         >
           <Experience.DescriptionItem>
-            Reescrita de aplicativo inicialmente em Cordova
+            Rewrite of a Cordova app
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            App com foco no produto carro-chefe
+            App focused the main product
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Design de novas features
+            Design of new features
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Desenvolvimento de Back For Front (expressjs)
+            Developing a back for front (expressjs)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Integrações e criação de novos serviços internos (Rails, JS e Elixir)
+            Integration and creation of new APIs directly in internal services other than BFF (Rails, JS, and Elixir)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Uso de ferramentas para metrificar conversão e utilização (Amplitude e Google Analytics)
+            Usage of tooling for metrics and conversion (Amplitude and Google Analytics)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Deploys contínuos (AppCenter)
+            Continuous deployment (AppCenter)
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entries>
@@ -89,25 +92,25 @@ const Experiences = () => (
           title="React Native"
         >
           <Experience.DescriptionItem>
-            Lead mobile developer do produto principal
+            Lead mobile developer of the main App
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Refatoração de código legado para garantir entregas mais ágeis
+            Refactoring of legacy code to ensure faster delivers
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Aplicação focada no mercado farmacêutico
+            Application focused on the pharmaceutical market
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Design de novas features
+            Design of new features
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Persistência e cacheamento de APIs com regras específicas de negócio
+            Persistency and caching of apis with business-specific rules
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Apresentação de provas de conceito para features especiais
+            Presentation of proof of concepts for special features
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Otimização e performance do App
+            Optimization and performance of the App
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entry>
@@ -125,22 +128,22 @@ const Experiences = () => (
           title="Full Stack"
         >
           <Experience.DescriptionItem>
-            Utilização de metodologias ágeis (SCRUM, PP, Lean) para administrar o andamento do projeto com as ferramentas de gerência Jira, Bitbucket, Slack
+            Agile practices (SCRUM, PP, Lean) to set processes using tools like Jira, Bitbucket, and Slack
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Deploy e containerização via Docker targeteando serviços AWS
+            Deploy and contenarization with Docker targeting AWS
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Desenvolvimento UX seguindo as diretrizes Material Design com as bibliotecas Material-UI e React
+            Developing UX following material design principles with the Material-UI library for React
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Construção de APIs em expressjs e sequelize com driver PostgreSQL
+            Construction of APIs with expressjs and sequelize supported by a PostgreSQL backend
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Conhecimento básico em Kong (api gateway)
+            Basic knowledge of Kong, an API gateway
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Implementação de protocolos DICOM, https e websockets
+            Implementation of DICOM, https, and WebSockets protocols
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entry>

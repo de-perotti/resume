@@ -6,10 +6,6 @@
   align-items: center;
 
   &:nth-child(even) {
-    background: linear-gradient(
-                    to right,
-                    white 0,
-                    rgba($secondary-color, 0.2) 44% 55%,
-                    white 100%);
+    background: rgba($secondary-color, 0.2) 44% 55%;
   }
 }
