@@ -1,6 +1,8 @@
+@import "../../../../assets/scss/utils/spaces";
+
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  grid-column-gap: $space-m;
+  grid-row-gap: $space-m;
 }

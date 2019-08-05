@@ -5,7 +5,7 @@ interface TextProps extends HTMLAttributes<any> {
   element: string;
 }
 
-const Text = ({ element, className, children, ...props }: TextProps) => (
+const Text = ({ element, children, ...props }: TextProps) => (
   React.createElement(element, props, children));
 
 export default Text;

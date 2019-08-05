@@ -1,0 +1,10 @@
+@import "../../assets/scss/utils/colors";
+@import "../../assets/scss/utils/spaces";
+
+.secondary-heading {
+  border-bottom-color: $primary-color;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  margin-bottom: $space-s;
+  letter-spacing: 3px;
+}

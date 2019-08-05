@@ -1,3 +1,17 @@
-.experience-entry {
+@import "../../../assets/scss/utils/spaces";
 
+.experience-entry__header {
+  margin-bottom: $space-xs;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.experience-entry {
+  margin-bottom: $space-s;
+}
+
+.experience-entry .experience-entry__heading {
+  margin-bottom: 0;
+  letter-spacing: 2px;
 }

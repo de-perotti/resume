@@ -1,7 +1,8 @@
-import React, { HTMLAttributes } from 'react';
+import './social-links.scss';
+import React from 'react';
 
-const SocialLinks = ({ className }: HTMLAttributes<HTMLDivElement>) => (
-  <div className={className}>
+const SocialLinks = () => (
+  <div className="social-links">
     <p>@perottilds</p>
     <a href="https://github.com/perottilds">
       <i className="fa fa-github-square"></i>

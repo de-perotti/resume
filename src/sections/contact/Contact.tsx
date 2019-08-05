@@ -9,12 +9,14 @@ import SocialLinks from './components/SocialLinks';
 const Contact = () => (
   <Section className="contact-section">
     <Heading.Primary className="contact-section__name">
-      Luigi de Souza Perotti
+      Luigi de S. Perotti
     </Heading.Primary>
 
-    <PhoneNumber className="contact-section__phone-number"/>
-    <EmailAddress className="contact-section__email-address"/>
-    <SocialLinks className="contact-section__socials"/>
+    <div className="contacts-wrapper">
+      <PhoneNumber className="contact-section__phone-number"/>
+      <EmailAddress className="contact-section__email-address"/>
+      <SocialLinks />
+    </div>
   </Section>
 );
 

@@ -1,0 +1,29 @@
+@import "../../assets/scss/utils/colors";
+@import "../../assets/scss/utils/spaces";
+@import "../../assets/scss/utils/mixins/rem";
+
+.section.contact-section {
+  padding: $space-st;
+  background-color: $primary-color;
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+
+  .heading {
+    text-transform: initial;
+    font-size: 3rem;
+    color: white;
+  }
+}
+
+.contact-section * {
+  color: white;
+}
+
+.contacts-wrapper {
+  justify-self: end;
+}
+
+.contacts-wrapper * {
+  text-align: right;
+}

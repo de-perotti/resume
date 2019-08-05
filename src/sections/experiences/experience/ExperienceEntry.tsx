@@ -4,13 +4,17 @@ import * as Heading from '@components/heading';
 
 interface ExperienceEntryProps extends HTMLAttributes<HTMLDivElement> {
   company: string;
+  roles: React.ReactComponentElement<any, any>;
 }
 
-export const ExperienceEntry = ({ children, company }: ExperienceEntryProps) => (
+export const ExperienceEntry = ({ children, company, roles }: ExperienceEntryProps) => (
   <div className="experience-entry">
-    <Heading.Tertiary>
-      {company}
-    </Heading.Tertiary>
+    <div className="experience-entry__header">
+      <Heading.Tertiary className="experience-entry__heading">
+        {company}
+      </Heading.Tertiary>
+      {roles}
+    </div>
     {children}
   </div>
 );

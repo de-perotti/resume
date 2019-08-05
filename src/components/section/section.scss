@@ -1,0 +1,12 @@
+@import "../../assets/scss/utils/spaces";
+@import "../../assets/scss/utils/colors";
+
+.section {
+  padding: $space-st;
+  padding-bottom: 0;
+}
+
+.section > .heading {
+  text-transform: uppercase;
+  color: $primary-color;
+}

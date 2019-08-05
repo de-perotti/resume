@@ -1,0 +1,21 @@
+@import "../../../assets/scss/utils/spaces";
+
+.experience-job-description {
+  ul {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+  }
+}
+
+.experience-job-description__header {
+  display: flex;
+  justify-content: space-between;
+
+  * {
+    font-size: 0.9rem;
+  }
+}

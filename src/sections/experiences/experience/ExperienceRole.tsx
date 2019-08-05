@@ -9,11 +9,7 @@ interface ExperienceRole extends HTMLAttributes<HTMLDivElement> {
 
 export const ExperienceRole = ({ title, span }: ExperienceRole) => (
   <div className="experience-role">
-    <Text.Regular>
-      {title}
-    </Text.Regular>
-    <Text.Regular>
-      {span}
-    </Text.Regular>
+    <Text.Bold>{title}</Text.Bold>
+    <Text.Regular>{span}</Text.Regular>
   </div>
 );

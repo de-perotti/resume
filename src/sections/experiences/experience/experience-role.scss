@@ -1,3 +1,11 @@
-.experience-role {
+@import "../../../assets/scss/utils/spaces";
 
+.experience-role {
+  display: flex;
+  justify-content: space-between;
+
+  * {
+    font-size: 0.9rem;
+    letter-spacing: 0;
+  }
 }

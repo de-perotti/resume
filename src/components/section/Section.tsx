@@ -1,8 +1,9 @@
 import './section.scss'
 import React, { HTMLAttributes } from 'react';
+import classNames from 'classnames';
 
-const Section = ({ children }: HTMLAttributes<HTMLDivElement>) => (
-  <section className="section">
+const Section = ({ children, className }: HTMLAttributes<HTMLDivElement>) => (
+  <section className={classNames('section', className)}>
     {children}
   </section>
 );
