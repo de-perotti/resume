@@ -9,9 +9,8 @@ export interface MeterProps extends HTMLAttributes<HTMLDivElement> {
 
 const getGradient = (progress: number, color: string) => {
   const start = `${progress * 100}%`;
-  const end = `${(1 - progress) * 100}%`;
 
-  return `linear-gradient(to right, ${color} 0 ${start}, white ${start} ${end})`;
+  return `linear-gradient(to right, ${color} 0 ${start}, white ${start} 100%)`;
 };
 
 

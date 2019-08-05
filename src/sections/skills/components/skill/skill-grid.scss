@@ -3,6 +3,6 @@
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: $space-m;
+  grid-column-gap: $space-st;
   grid-row-gap: $space-m;
 }

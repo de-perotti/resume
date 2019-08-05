@@ -11,8 +11,8 @@ const Resume = () => (
   <Page>
     <Contact />
     <Education />
-    <Skills />
     <Experiences />
+    <Skills />
   </Page>
 );
 

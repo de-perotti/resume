@@ -4,17 +4,14 @@ import * as Text from '@components/text';
 
 const SkillPractices = () => (
   <Skill.Cell>
-    <Text.Regular>
+    <Text.Bold>
       Practices
-    </Text.Regular>
-    <Skill.Row name="TDD" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="BDD" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="DDD" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="Backend" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="Frontend" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="DevOps" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="Mobile" expertise={0.2} engagement={0.2} />
-    <Skill.Row name="Data Science" expertise={0.2} engagement={0.2} />
+    </Text.Bold>
+    <Skill.Row name="XP" expertise={0.6} engagement={0.8} />
+    <Skill.Row name="DDD" expertise={0.4} engagement={0.5} />
+    <Skill.Row name="BDD" expertise={0.4} engagement={0.7} />
+    <Skill.Row name="TDD" expertise={0.3} engagement={0.6} />
+    <Skill.Row name="Agile" expertise={0.8} engagement={0.3} />
   </Skill.Cell>
 );
 

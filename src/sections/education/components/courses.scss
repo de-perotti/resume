@@ -2,6 +2,6 @@
 
 .courses {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: $space-m * 2;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: $space-st;
 }
