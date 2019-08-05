@@ -119,7 +119,7 @@ const Experiences = () => (
         company="Dr Tis"
         roles={
           <Experience.Role
-            title="Trainee Full Stack Developer"
+            title="Trainee Developer"
             span="JAN 2017 - MAR 2018"
           />
         }
