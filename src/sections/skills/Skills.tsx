@@ -8,7 +8,7 @@ import SkillPractices from '@sections/skills/SkillPractices';
 import SkillProgrammingLanguages from '@sections/skills/SkillProgrammingLanguages';
 import SkillTools from '@sections/skills/SkillTools';
 import SkillLanguages from '@sections/skills/SkillLanguages';
-import SkillLegend from '@sections/skills/SkillLegend';
+import SkillFrameworks from '@sections/skills/SkillFrameworks';
 
 const Skills = () => (
   <Section className="skills-section">
@@ -21,8 +21,8 @@ const Skills = () => (
       <SkillPractices />
       <SkillProgrammingLanguages />
       <SkillTools />
+      <SkillFrameworks />
       <SkillLanguages />
-      <SkillLegend />
     </Skill.Grid>
   </Section>
 );

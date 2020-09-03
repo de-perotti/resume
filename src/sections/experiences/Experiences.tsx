@@ -10,40 +10,89 @@ const Experiences = () => (
       Experiences
     </Heading.Secondary>
 
+    <Experience.Entry company="Loft Brasil Tecnologia LTDA" roles={<Experience.Role title="Software Engineer" span="SEP 2019 - Current" />}>
+      <Experience.Entries>
+        <Experience.JobDescription
+          title="Full Stack"
+          span="SEP 2019 - Current"
+        >
+          <Experience.DescriptionItem>
+            Instructed backend-oriented colleagues to develop frontend skills so they could be more autonomous
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Helped develop, build, and connect a number of microservices to enable product development
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Got involved in several discussions for product development resulting in better synergy between engineering and product
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Wrote a unit test cookbook to help developers not familiar with testing to ship better
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Kept track of health product and engineering metrics
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Helped define and build the frontend architecture by coming up with problems and possible solutions while aiming for overall better productivity and scalability
+          </Experience.DescriptionItem>
+        </Experience.JobDescription>
+
+        <Experience.JobDescription
+          title="React Native"
+          span="APR 2019 - Current"
+        >
+          <Experience.DescriptionItem>
+            Deprecated a third party app that made deploy of new features harder and more expensive
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Decided on React Native after coming up with proof of concepts on both RN and Flutter for performance issues with webview
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Implemented the new app as a webview so we can be fast with testing and deployment while maintaining visual consistency without requiring too much maintenance
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Implemented a new step in the deploy pipeline to statically check for possibly breaking features because of compatibilities with older devices
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Helped point out a bug and its fix in the @react-native-community/cookies library
+          </Experience.DescriptionItem>
+        </Experience.JobDescription>
+      </Experience.Entries>
+    </Experience.Entry>
+
     <Experience.Entry
       company="Quero Educação"
       roles={
         <Experience.Role
           title="Junior Mobile Developer"
-          span="AUG 2018 - Today"
+          span="AUG 2018 - SEP 2019"
         />
       }
     >
       <Experience.Entries>
         <Experience.JobDescription
           title="Full Stack"
-          span="FEB 2019 - Today"
+          span="FEB 2019 - SEP 2019"
         >
           <Experience.DescriptionItem>
-            Creation of a platform for exams
+            Helped create a platform for exams
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            API and architecture definition (NestJS e AWS)
+            Helped define the implementation of the product's architecture
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Implementation of Quero's Design System (React e SCSS)
+            Implemented Quero's Design System with React
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Focus on microservices, supporting the tear down of the monolith (Rails)
+            Focused on microservices, supporting the initial tear down of the monolith
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Proof of Concept of a self-hosted feature flag service (Unleash)
+            Presented a proof of concept for a self-hosted feature flag service
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Presented a talk about regression testing with storybook for a meetup hosted by Quero (MeetupJS)
+            Presented a talk about regression testing with storybook for a meetup hosted by Quero
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Construction of documentation with Storybook
+            Constructed and introduced documentation with Storybook
           </Experience.DescriptionItem>
         </Experience.JobDescription>
 
@@ -52,25 +101,22 @@ const Experiences = () => (
           span="AUG 2018 - FEB 2019"
         >
           <Experience.DescriptionItem>
-            Rewrite of a Cordova app
+            Rewrote of a Cordova app focused the main product
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            App focused the main product
+            Helped design new features
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Design of new features
+            Developed a backend for frontend
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Developing a back for front (expressjs)
+            Integrated and created new APIs directly in internal services other than BFF
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Integration and creation of new APIs directly in internal services other than BFF (Rails, JS, and Elixir)
+            Used tooling for metrics and conversion
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Usage of tooling for metrics and conversion (Amplitude and Google Analytics)
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Continuous deployment (AppCenter)
+            Developed using CI/CD
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entries>
@@ -90,29 +136,7 @@ const Experiences = () => (
 
         <Experience.JobDescription
           title="React Native"
-        >
-          <Experience.DescriptionItem>
-            Lead mobile developer of the main App
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Refactoring of legacy code to ensure faster delivers
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Application focused on the pharmaceutical market
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Design of new features
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Persistency and caching of apis with business-specific rules
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Presentation of proof of concepts for special features
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Optimization and performance of the App
-          </Experience.DescriptionItem>
-        </Experience.JobDescription>
+        />
       </Experience.Entry>
 
       <Experience.Entry
@@ -126,26 +150,7 @@ const Experiences = () => (
       >
         <Experience.JobDescription
           title="Full Stack"
-        >
-          <Experience.DescriptionItem>
-            Agile practices (SCRUM, PP, Lean) to set processes using tools like Jira, Bitbucket, and Slack
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Deploy and contenarization with Docker targeting AWS
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Developing UX following material design principles with the Material-UI library for React
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Construction of APIs with expressjs and sequelize supported by a PostgreSQL backend
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Basic knowledge of Kong, an API gateway
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Implementation of DICOM, https, and WebSockets protocols
-          </Experience.DescriptionItem>
-        </Experience.JobDescription>
+        />
       </Experience.Entry>
     </Experience.Entries>
   </Section>

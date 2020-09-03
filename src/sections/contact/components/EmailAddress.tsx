@@ -1,8 +1,8 @@
 import React, { HTMLAttributes } from 'react';
 
 const EmailAddress = ({ className }: HTMLAttributes<HTMLParagraphElement>) => (
-  <a href="mailto:perottilds@gmail.com" className={className}>
-    perottilds@gmail.com
+  <a href="luigi@perotti.dev" className={className}>
+    luigi@perotti.dev
   </a>
 );
 
