@@ -2,12 +2,12 @@ import './experience-job-description.scss';
 import React, { HTMLAttributes } from 'react';
 import * as Text from '@components/text';
 
-interface ExperienceJobDescription extends HTMLAttributes<HTMLDivElement> {
+interface IExperienceJobDescription extends HTMLAttributes<HTMLDivElement> {
   title: string;
   span?: string;
 }
 
-export const ExperienceJobDescription = ({ title, span, children }: ExperienceJobDescription) => (
+export const ExperienceJobDescription = ({ title, span, children }: IExperienceJobDescription) => (
   <div className="experience-job-description">
     <div className="experience-job-description__header">
       <Text.Regular>{title}</Text.Regular>

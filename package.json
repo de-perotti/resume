@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "classnames": "~2.2.6",
+    "classnames": "~2.3.0",
     "normalize.css": "~8.0.1",
-    "react": "~16.13.1",
-    "react-dom": "~16.13.1"
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2"
   },
   "scripts": {
     "start": "craco start",
@@ -28,14 +28,14 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "~5.6.4",
+    "@craco/craco": "~6.1.1",
     "@types/classnames": "~2.2.10",
-    "@types/jest": "26.0.13",
-    "@types/node": "14.6.3",
-    "@types/react": "16.9.49",
-    "@types/react-dom": "16.9.8",
-    "node-sass": "~4.14.1",
-    "react-scripts": "3.4.3",
-    "typescript": "^3"
+    "@types/jest": "26.0.22",
+    "@types/node": "14.14.37",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "node-sass": "~5.0.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.2.3"
   }
 }
