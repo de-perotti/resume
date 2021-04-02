@@ -5,12 +5,13 @@ import * as Text from '@components/text';
 const SkillInterests = () => (
   <Skill.Cell>
     <Text.Bold>Interests</Text.Bold>
+    <Skill.Row name="UI Development" />
     <Skill.Row name="Frontend" />
+    <Skill.Row name="Frontend Tooling" />
     <Skill.Row name="Architecture" />
-    <Skill.Row name="Mobile" />
-    <Skill.Row name="Data Science" />
+    <Skill.Row name="Full Stack" />
     <Skill.Row name="Backend" />
-    <Skill.Row name="DevOps" />
+    <Skill.Row name="Hybrid Mobile" />
   </Skill.Cell>
 );
 

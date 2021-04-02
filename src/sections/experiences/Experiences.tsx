@@ -7,14 +7,14 @@ import * as Experience from './experience';
 const Experiences = () => (
   <Section className="experiences-section">
     <Heading.Secondary className="experiences-section__heading">
-      Experiences
+      Experience
     </Heading.Secondary>
 
-    <Experience.Entry company="Loft Brasil Tecnologia LTDA" roles={<Experience.Role title="Software Engineer" span="SEP 2019 - Current" />}>
+    <Experience.Entry company="Loft Brasil Tecnologia LTDA" roles={<Experience.Role title="Software Engineer" span="SEP 2019 - JAN 2021" />}>
       <Experience.Entries>
         <Experience.JobDescription
           title="Full Stack"
-          span="SEP 2019 - Current"
+          span="SEP 2019 - JAN 2021"
         >
           <Experience.DescriptionItem>
             Instructed backend-oriented colleagues to develop frontend skills so they could be more autonomous
@@ -38,7 +38,7 @@ const Experiences = () => (
 
         <Experience.JobDescription
           title="React Native"
-          span="APR 2019 - Current"
+          span="APR 2020 - JUL 2020"
         >
           <Experience.DescriptionItem>
             Deprecated a third party app that made deploy of new features harder and more expensive
@@ -53,7 +53,7 @@ const Experiences = () => (
             Implemented a new step in the deploy pipeline to statically check for possibly breaking features because of compatibilities with older devices
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Helped point out a bug and its fix in the @react-native-community/cookies library
+            I had the opportunity to contribute React Native open source libraries
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entries>
@@ -101,7 +101,7 @@ const Experiences = () => (
           span="AUG 2018 - FEB 2019"
         >
           <Experience.DescriptionItem>
-            Rewrote of a Cordova app focused the main product
+            Rewrote a Cordova app focused the main product
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
             Helped design new features
@@ -116,7 +116,7 @@ const Experiences = () => (
             Used tooling for metrics and conversion
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Developed using CI/CD
+            Developed using continuous integration
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entries>

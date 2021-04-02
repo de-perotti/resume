@@ -10,20 +10,19 @@ const Education = () => (
       Education
     </Heading.Secondary>
 
-
     <Courses>
       <Course
         className="education-section__course"
-        name="Applied Math with emphasis on mathematical methods"
+        name="Applied Mathematics"
         institution="University of São Paulo"
-        due="Incomplete, 2nd sem"
+        due="Incomplete, 2nd semester"
       />
 
       <Course
         className="education-section__course"
         name="Materials Engineering"
         institution="Mackenzie Presbyterian University"
-        due="Incomplete, 9th sem"
+        due="Incomplete, 9th semester"
       />
     </Courses>
   </Section>
