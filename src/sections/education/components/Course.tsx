@@ -6,9 +6,11 @@ interface CourseProps extends HTMLAttributes<HTMLDivElement> {
   name: string;
   institution: string;
   due: string;
+  from: string;
+  to: string;
 }
 
-const Course = ({ name, institution, due, className }: CourseProps) => (
+const Course = ({ name, institution, due, className, from, to }: CourseProps) => (
   <div className={className}>
     <Heading.Tertiary>
       {name}
@@ -17,7 +19,7 @@ const Course = ({ name, institution, due, className }: CourseProps) => (
       {institution}
     </Text.Regular>
     <Text.Regular>
-      {due}
+      {due} ({from} - {to})
     </Text.Regular>
   </div>
 );

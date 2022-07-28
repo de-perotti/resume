@@ -16,6 +16,8 @@ const Education = () => (
         name="Applied Mathematics"
         institution="University of São Paulo"
         due="Incomplete, 2nd semester"
+        from="jan/2016"
+        to="jul/2018"
       />
 
       <Course
@@ -23,6 +25,8 @@ const Education = () => (
         name="Materials Engineering"
         institution="Mackenzie Presbyterian University"
         due="Incomplete, 9th semester"
+        from="jan/2010"
+        to="dec/2014"
       />
     </Courses>
   </Section>
