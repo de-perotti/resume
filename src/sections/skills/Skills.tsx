@@ -13,7 +13,7 @@ import SkillFrameworks from '@sections/skills/SkillFrameworks';
 const Skills = () => (
   <Section className="skills-section">
     <Heading.Secondary>
-      Skill
+      Skills
     </Heading.Secondary>
 
     <Skill.Grid>

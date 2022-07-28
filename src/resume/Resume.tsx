@@ -10,8 +10,8 @@ import Skills from '@sections/skills';
 const Resume = () => (
   <Page>
     <Contact />
-    <Experiences />
     <Education />
+    <Experiences />
     <Skills />
   </Page>
 );

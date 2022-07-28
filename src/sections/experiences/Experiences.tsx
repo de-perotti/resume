@@ -10,11 +10,43 @@ const Experiences = () => (
       Experience
     </Heading.Secondary>
 
-    <Experience.Entry company="Loft Brasil Tecnologia LTDA" roles={<Experience.Role title="Software Engineer" span="SEP 2019 - JAN 2021" />}>
+    <Experience.Entry company="Floki Technologies" location="São Paulo, SP - Brazil" roles={
+      <Experience.Role remote
+                       jobType="full-time" title="Senior Software Engineer" span="MAY 2021 - CURRENT" />}>
+      <Experience.JobDescription
+        title="Full Stack"
+        span="MAY 2021 - CURRENT"
+
+      >
+        <Experience.DescriptionItem>
+          Delivered a series of features for two categories of clients which helped increase GMV by more than 300% over six months
+        </Experience.DescriptionItem>
+        <Experience.DescriptionItem>
+          Helped negotiate deliverables and technical debt so our team could keep momentum while doing our best to evolve the architecture
+        </Experience.DescriptionItem>
+        <Experience.DescriptionItem>
+          Built scalable and testable applications using React, Typescript and Express on top of Firebase and GCP
+        </Experience.DescriptionItem>
+        <Experience.DescriptionItem>
+          Took on responsibility to onboard new members of the team getting them up to speed with tools and the domain
+        </Experience.DescriptionItem>
+        <Experience.DescriptionItem>
+          Partook in feature ideations helping the team achieve feasibility in high value features
+        </Experience.DescriptionItem>
+        <Experience.DescriptionItem>
+          Had responsibility mentoring more junior developers
+        </Experience.DescriptionItem>
+      </Experience.JobDescription>
+    </Experience.Entry>
+
+    <Experience.Entry company="Loft Brasil Tecnologia LTDA" location="São José dos Campos, SP - Brazil" roles={
+      <Experience.Role title="Software Engineer" span="SEP 2019 - JAN 2021" remote={true}
+                       jobType="full-time"/>}>
       <Experience.Entries>
         <Experience.JobDescription
           title="Full Stack"
           span="SEP 2019 - JAN 2021"
+
         >
           <Experience.DescriptionItem>
             Instructed backend-oriented colleagues to develop frontend skills so they could be more autonomous
@@ -63,10 +95,13 @@ const Experiences = () => (
       company="Quero Educação"
       roles={
         <Experience.Role
-          title="Junior Mobile Developer"
+          title="Software Engineer"
           span="AUG 2018 - SEP 2019"
+          remote={false}
+          jobType="full-time"
         />
       }
+      location="São Paulo, SP - Brazil"
     >
       <Experience.Entries>
         <Experience.JobDescription
@@ -122,37 +157,6 @@ const Experiences = () => (
       </Experience.Entries>
 
     </Experience.Entry>
-
-    <Experience.Entries>
-      <Experience.Entry
-        company="Dr Vendedor"
-        roles={
-          <Experience.Role
-            title="Junior Mobile Developer"
-            span="MAR 2018 - AUG 2018"
-          />
-        }
-      >
-
-        <Experience.JobDescription
-          title="React Native"
-        />
-      </Experience.Entry>
-
-      <Experience.Entry
-        company="Dr Tis"
-        roles={
-          <Experience.Role
-            title="Trainee Developer"
-            span="JAN 2017 - MAR 2018"
-          />
-        }
-      >
-        <Experience.JobDescription
-          title="Full Stack"
-        />
-      </Experience.Entry>
-    </Experience.Entries>
   </Section>
 );
 

@@ -11,7 +11,6 @@ const SkillInterests = () => (
     <Skill.Row name="Architecture" />
     <Skill.Row name="Full Stack" />
     <Skill.Row name="Backend" />
-    <Skill.Row name="Hybrid Mobile" />
   </Skill.Cell>
 );
 

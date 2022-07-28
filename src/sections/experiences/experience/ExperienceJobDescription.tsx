@@ -13,7 +13,6 @@ export const ExperienceJobDescription = ({ title, span, children }: IExperienceJ
       <Text.Regular>{title}</Text.Regular>
       <Text.Regular>{span}</Text.Regular>
     </div>
-
     <ul>{children}</ul>
   </div>
 );

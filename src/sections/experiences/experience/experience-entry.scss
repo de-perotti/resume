@@ -9,6 +9,10 @@
 
 .experience-entry .experience-entry__heading {
   margin-bottom: 0;
-  margin-top: $space-s;
+  margin-top: $space-xs;
   letter-spacing: 2px;
+}
+
+.experience-entry .experience-entry__heading--location {
+  font-size: 0.8rem;
 }

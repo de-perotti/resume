@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 0.8rem;
 
   &:nth-child(even) {
     background: rgba($secondary-color, 0.25) 44% 55%;
