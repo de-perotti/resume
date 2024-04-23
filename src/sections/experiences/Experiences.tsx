@@ -10,31 +10,81 @@ const Experiences = () => (
       Experience
     </Heading.Secondary>
 
+    <Experience.Entry
+        company="Golden Entropy Marketing"
+        roles={
+          <Experience.Role
+              title="Principal Frontend Engineer"
+              span="JAN 2023 - CURRENT"
+              remote={false}
+              jobType="full-time"
+          />
+        }
+        location="Los Angeles, CA - USA"
+    >
+      <Experience.Entries>
+        <Experience.JobDescription
+            title="Principal Frontend Engineer"
+            span="DEC 2023 - CURRENT"
+        >
+          <Experience.DescriptionItem>
+            Led the development of industry-changing application for capturing leads using direct acyclic graphs for dynamic form generation (NestJS, HTMX, Typescript, React, and MySQL). Development is still ongoing, next steps include the creation of a backoffice application to manage the base elements of funnels
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Pushed adoption of OpenAPI contracts and API code generation reducing change failure rate by 50% and increasing lead times by 35%. Next steps include the adoption of contract testing, most likely using pact.io
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Created a POC of a DORA metrics backend application on top of JIRA and Bitbucket APIs to track team performance and identify bottlenecks (NestJS, Typescript, and MySQL)
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Mentored other frontend leaders to manage complex projects using agreed-upon best practices and architecture patterns
+          </Experience.DescriptionItem>
+        </Experience.JobDescription>
+
+        <Experience.JobDescription
+            title="Senior Frontend Engineer"
+            span="JAN 2023 - DEC 2023"
+        >
+          <Experience.DescriptionItem>
+            Led the migration of a legacy application to a modern stack using a design system still in its infancy which enable new features to be developed quickly keeping lead times at an all-time low
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Established architecture patterns and best practices for the team to follow, enabling junior developers and new hires to ramp up quickly to the point of being able to contribute to the codebase by themselves
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Pushed adoption of Typescript reducing change failure rate by 80% and increasing code quality
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Defined best practices for mono repo management and CI/CD pipelines (Bitbucket, AWS - Code Build, Code Deploy, Code Pipeline, ECR, ECS, Cloudwatch), enabling the team to deploy multiple times a day with confidence
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Increased code coverage from 0% to 60% in legacy codebases
+          </Experience.DescriptionItem>
+          <Experience.DescriptionItem>
+            Implemented CVE scanning in CI/CD pipelines reducing the risk of security vulnerabilities and increasing the speed of remediation
+          </Experience.DescriptionItem>
+        </Experience.JobDescription>
+      </Experience.Entries>
+    </Experience.Entry>
+
     <Experience.Entry company="Floki Technologies" location="São Paulo, SP - Brazil" roles={
       <Experience.Role remote
-                       jobType="full-time" title="Senior Software Engineer" span="MAY 2021 - CURRENT" />}>
+                       jobType="full-time" title="Senior Software Engineer" span="MAY 2021 - DEC 2022" />}>
       <Experience.JobDescription
         title="Full Stack"
-        span="MAY 2021 - CURRENT"
-
+        span="MAY 2021 - DEC 2022"
       >
         <Experience.DescriptionItem>
-          Delivered a series of features for two categories of clients which helped increase GMV by more than 300% over six months
-        </Experience.DescriptionItem>
-        <Experience.DescriptionItem>
-          Helped negotiate deliverables and technical debt so our team could keep momentum while doing our best to evolve the architecture
+          Delivered a series of features for two categories of clients, such as cart management, product listing and free-tier price listing, which helped increase GMV by more than 300% over six months
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
           Built scalable and testable applications using React, Typescript and Express on top of Firebase and GCP
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Took on responsibility to onboard new members of the team getting them up to speed with tools and the domain
+          Refined the hiring process for frontend developers from the moment they got into our hiring pipeline, which helped to reduce the time to hire from 90 days to 40 days and increased the quality of the candidates
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Partook in feature ideations helping the team achieve feasibility in high value features
-        </Experience.DescriptionItem>
-        <Experience.DescriptionItem>
-          Had responsibility mentoring more junior developers
+          Nourished relationships with stakeholders and business developers in order to keep priorities aligned and to be able to deliver value to the business
         </Experience.DescriptionItem>
       </Experience.JobDescription>
     </Experience.Entry>
@@ -49,113 +99,18 @@ const Experiences = () => (
 
         >
           <Experience.DescriptionItem>
-            Instructed backend-oriented colleagues to develop frontend skills so they could be more autonomous
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Helped develop, build, and connect a number of microservices to enable product development
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Got involved in several discussions for product development resulting in better synergy between engineering and product
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Wrote a unit test cookbook to help developers not familiar with testing to ship better
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Kept track of health product and engineering metrics
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Helped define and build the frontend architecture by coming up with problems and possible solutions while aiming for overall better productivity and scalability
+            Implemented a series of features for realtors, such as scheduling and managing visits and their data, increasing collaborative work across teams. This lead to being able to create and scale a marketplace for home buying and selling
           </Experience.DescriptionItem>
         </Experience.JobDescription>
-
         <Experience.JobDescription
           title="React Native"
           span="APR 2020 - JUL 2020"
         >
           <Experience.DescriptionItem>
-            Deprecated a third party app that made deploy of new features harder and more expensive
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Decided on React Native after coming up with proof of concepts on both RN and Flutter for performance issues with webview
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Implemented the new app as a webview so we can be fast with testing and deployment while maintaining visual consistency without requiring too much maintenance
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Implemented a new step in the deploy pipeline to statically check for possibly breaking features because of compatibilities with older devices
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            I had the opportunity to contribute React Native open source libraries
+            Rewrote the a third-party app from scratch improving performance and maintainability, becoming a proof of concept for the current Flutter app Loft is using
           </Experience.DescriptionItem>
         </Experience.JobDescription>
       </Experience.Entries>
-    </Experience.Entry>
-
-    <Experience.Entry
-      company="Quero Educação"
-      roles={
-        <Experience.Role
-          title="Software Engineer"
-          span="AUG 2018 - SEP 2019"
-          remote={false}
-          jobType="full-time"
-        />
-      }
-      location="São Paulo, SP - Brazil"
-    >
-      <Experience.Entries>
-        <Experience.JobDescription
-          title="Full Stack"
-          span="FEB 2019 - SEP 2019"
-        >
-          <Experience.DescriptionItem>
-            Helped create a platform for exams
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Helped define the implementation of the product's architecture
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Implemented Quero's Design System with React
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Focused on microservices, supporting the initial tear down of the monolith
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Presented a proof of concept for a self-hosted feature flag service
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Presented a talk about regression testing with storybook for a meetup hosted by Quero
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Constructed and introduced documentation with Storybook
-          </Experience.DescriptionItem>
-        </Experience.JobDescription>
-
-        <Experience.JobDescription
-          title="React Native"
-          span="AUG 2018 - FEB 2019"
-        >
-          <Experience.DescriptionItem>
-            Rewrote a Cordova app focused the main product
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Helped design new features
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Developed a backend for frontend
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Integrated and created new APIs directly in internal services other than BFF
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Used tooling for metrics and conversion
-          </Experience.DescriptionItem>
-          <Experience.DescriptionItem>
-            Developed using continuous integration
-          </Experience.DescriptionItem>
-        </Experience.JobDescription>
-      </Experience.Entries>
-
     </Experience.Entry>
   </Section>
 );

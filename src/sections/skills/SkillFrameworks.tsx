@@ -6,9 +6,9 @@ const SkillFrameworks = () => (
   <Skill.Cell>
     <Text.Bold>Frameworks</Text.Bold>
     <Skill.Row name="React" />
-    <Skill.Row name="React-Native" />
-    <Skill.Row name="NextJS" />
     <Skill.Row name="NestJS" />
+    <Skill.Row name="NextJS" />
+    <Skill.Row name="React-Native" />
   </Skill.Cell>
 );
 

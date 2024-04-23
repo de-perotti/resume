@@ -3,8 +3,8 @@ import React from 'react';
 import Section from '@components/section';
 import * as Heading from '@components/heading';
 import * as Skill from './components/skill';
-import SkillInterests from '@sections/skills/SkillInterests';
-import SkillPractices from '@sections/skills/SkillPractices';
+import SkillFocus from '@sections/skills/SkillFocus';
+import SkillProcesses from '@sections/skills/SkillProcesses';
 import SkillProgrammingLanguages from '@sections/skills/SkillProgrammingLanguages';
 import SkillTools from '@sections/skills/SkillTools';
 import SkillLanguages from '@sections/skills/SkillLanguages';
@@ -17,8 +17,8 @@ const Skills = () => (
     </Heading.Secondary>
 
     <Skill.Grid>
-      <SkillInterests />
-      <SkillPractices />
+      <SkillFocus />
+      <SkillProcesses />
       <SkillProgrammingLanguages />
       <SkillTools />
       <SkillFrameworks />

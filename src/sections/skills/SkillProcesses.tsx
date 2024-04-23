@@ -2,15 +2,17 @@ import React from 'react';
 import * as Skill from '@sections/skills/components/skill';
 import * as Text from '@components/text';
 
-const SkillPractices = () => (
+const SkillProcesses = () => (
   <Skill.Cell>
     <Text.Bold>
-      Practices
+      Processes
     </Text.Bold>
-    <Skill.Row name="CI / CD" />
     <Skill.Row name="DDD" />
+    <Skill.Row name="TDD" />
+    <Skill.Row name="Lean" />
     <Skill.Row name="Agile" />
+    <Skill.Row name="DevOps" />
   </Skill.Cell>
 );
 
-export default SkillPractices;
+export default SkillProcesses;
