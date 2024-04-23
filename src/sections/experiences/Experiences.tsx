@@ -15,7 +15,6 @@ const Experiences = () => (
         roles={
           <Experience.Role
               title="Principal Frontend Engineer"
-              span="JAN 2023 - CURRENT"
               remote={false}
               jobType="full-time"
           />
@@ -69,9 +68,9 @@ const Experiences = () => (
 
     <Experience.Entry company="Floki Technologies" location="São Paulo, SP - Brazil" roles={
       <Experience.Role remote
-                       jobType="full-time" title="Senior Software Engineer" span="MAY 2021 - DEC 2022" />}>
+                       jobType="full-time" />}>
       <Experience.JobDescription
-        title="Full Stack"
+        title="Senior Full-stack Software Engineer"
         span="MAY 2021 - DEC 2022"
       >
         <Experience.DescriptionItem>
@@ -90,11 +89,11 @@ const Experiences = () => (
     </Experience.Entry>
 
     <Experience.Entry company="Loft Brasil Tecnologia LTDA" location="São José dos Campos, SP - Brazil" roles={
-      <Experience.Role title="Software Engineer" span="SEP 2019 - JAN 2021" remote={true}
+      <Experience.Role remote={true}
                        jobType="full-time"/>}>
       <Experience.Entries>
         <Experience.JobDescription
-          title="Full Stack"
+          title="Full-stack Software Engineer"
           span="SEP 2019 - JAN 2021"
 
         >

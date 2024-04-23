@@ -10,8 +10,8 @@ interface IExperienceJobDescription extends HTMLAttributes<HTMLDivElement> {
 export const ExperienceJobDescription = ({ title, span, children }: IExperienceJobDescription) => (
   <div className="experience-job-description">
     <div className="experience-job-description__header">
-      <Text.Regular>{title}</Text.Regular>
-      <Text.Regular>{span}</Text.Regular>
+      <Text.Regular><strong>{title}</strong></Text.Regular>
+      {!!span && <Text.Regular className="experience-job-description__span">{span}</Text.Regular>}
     </div>
     <ul>{children}</ul>
   </div>

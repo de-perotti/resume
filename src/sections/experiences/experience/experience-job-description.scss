@@ -7,15 +7,22 @@
   }
 
   .paragraph {
+    line-height: 1;
     font-size: 0.9rem;
+  }
+
+  .experience-job-description__span {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
   }
 }
 
 .experience-job-description__header {
   display: flex;
-  justify-content: space-between;
+  align-items: baseline;
 
   * {
     font-size: 0.9rem;
   }
 }
+
