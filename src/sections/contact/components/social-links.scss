@@ -1,10 +1,5 @@
 @import "../../../assets/scss/utils/spaces";
 
-.social-links {
-  display: flex;
-  justify-content: flex-end;
-
-  :not(:last-child) {
-    margin-right: $space-s;
-  }
+.social-links a {
+  text-decoration: none;
 }

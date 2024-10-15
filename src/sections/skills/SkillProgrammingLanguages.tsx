@@ -7,9 +7,8 @@ const SkillProgrammingLanguages = () => (
     <Text.Bold>
       Programming
     </Text.Bold>
-    <Skill.Row name="Typescript" />
-    <Skill.Row name="HTML" />
-    <Skill.Row name="SCSS | CSS" />
+    <Skill.Row name="Typescript | Node" />
+    <Skill.Row name="HTML | JS | CSS" />
     <Skill.Row name="SQL" />
     <Skill.Row name="Go" />
     <Skill.Row name="Python" />

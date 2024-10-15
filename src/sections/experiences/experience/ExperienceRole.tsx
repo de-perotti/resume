@@ -7,8 +7,8 @@ interface IExperienceRole extends HTMLAttributes<HTMLDivElement> {
   jobType: 'full-time'
 }
 
-export const ExperienceRole = ({ title, remote, jobType }: IExperienceRole) => (
-  <div className="experience-role">
-    <Text.Bold><span style={{ fontSize: '0.8rem', letterSpacing: '2px'} }>{remote ? 'remote' : 'on-site'} {jobType}</span></Text.Bold>
-  </div>
+export const ExperienceRole = ({  remote, jobType }: IExperienceRole) => (
+  <span className="experience-role">
+    <Text.Bold><span style={{ fontSize: '0.8rem'} }>{remote ? 'remote' : 'on-site'} {jobType}</span></Text.Bold>
+  </span>
 );

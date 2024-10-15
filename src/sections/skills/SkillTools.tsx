@@ -4,7 +4,7 @@ import * as Text from '@components/text';
 
 const SkillTools = () => (
   <Skill.Cell>
-    <Text.Bold>Tools</Text.Bold>
+    <Text.Bold>Platforms</Text.Bold>
     <Skill.Row name="Docker" />
     <Skill.Row name="AWS" />
     <Skill.Row name="GCP" />

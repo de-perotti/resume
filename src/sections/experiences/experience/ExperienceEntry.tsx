@@ -10,12 +10,13 @@ interface ExperienceEntryProps extends HTMLAttributes<HTMLDivElement> {
 
 export const ExperienceEntry = ({ children, company, roles, location }: ExperienceEntryProps) => (
   <div className="experience-entry">
-    <div className="experience-entry__header">
-      <Heading.Tertiary className="experience-entry__heading">
-        {company}  <span className="experience-entry__heading--location">- {location}</span>
-      </Heading.Tertiary>
-      {roles}
-    </div>
-    {children}
+      <div className="experience-entry__header"
+           style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between'}}>
+          <Heading.Tertiary className="experience-entry__heading">
+              {company}
+          </Heading.Tertiary>
+          <span className="experience-entry__heading--location"><strong>{location} ({roles})</strong></span>
+      </div>
+      {children}
   </div>
 );

@@ -7,7 +7,6 @@ const SkillLanguages = () => (
     <Text.Bold>Languages</Text.Bold>
     <Skill.Row name="Portuguese" />
     <Skill.Row name="English" />
-    <Skill.Row name="French" />
   </Skill.Cell>
 );
 
