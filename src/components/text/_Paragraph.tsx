@@ -1,3 +1,3 @@
-import { makeText } from '@components/text/Text';
+import { makeText } from "@components/text/Text";
 
-export const Paragraph = makeText('p', 'paragraph');
+export const Paragraph = makeText("p", "paragraph");

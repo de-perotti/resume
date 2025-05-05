@@ -3,7 +3,8 @@
 @import "../../assets/scss/utils/mixins/rem";
 
 .section.contact-section {
-  padding: $space-st;
+  padding-block: $space-s;
+  padding-inline: $space-m;
   background-color: $primary-color;
 
   display: grid;
@@ -21,7 +22,10 @@
 }
 
 .contacts-wrapper {
-  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .contacts-wrapper * {

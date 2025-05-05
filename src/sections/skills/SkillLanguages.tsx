@@ -1,6 +1,6 @@
-import React from 'react';
-import * as Skill from '@sections/skills/components/skill';
-import * as Text from '@components/text';
+import React from "react";
+import * as Skill from "@sections/skills/components/skill";
+import * as Text from "@components/text";
 
 const SkillLanguages = () => (
   <Skill.Cell>

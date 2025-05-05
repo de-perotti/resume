@@ -1,4 +1,4 @@
-import './primary-heading.scss';
-import { makeHeading } from './Heading';
+import "./primary-heading.scss";
+import { makeHeading } from "./Heading";
 
-export const PrimaryHeading = makeHeading('h1', 'primary-heading');
+export const PrimaryHeading = makeHeading("h1", "primary-heading");

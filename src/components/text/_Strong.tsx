@@ -1,3 +1,3 @@
-import { makeText } from '@components/text/Text';
+import { makeText } from "@components/text/Text";
 
-export const Strong = makeText('strong', 'strong');
+export const Strong = makeText("strong", "strong");

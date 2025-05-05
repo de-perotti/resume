@@ -1,10 +1,8 @@
-import './page.scss';
-import React, { HTMLAttributes } from 'react';
+import "./page.scss";
+import React, { HTMLAttributes } from "react";
 
 const Page = ({ children }: HTMLAttributes<HTMLDivElement>) => (
-  <div className="page">
-    {children}
-  </div>
+  <div className="page">{children}</div>
 );
 
 export default Page;

@@ -2,9 +2,9 @@
 
 .experience-entry__header {
   margin-bottom: $space-xs;
-  border-bottom-color: black;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  border-bottom-color: rgba(0,0,0, 0.35);
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
 }
 
 .experience-entry .experience-entry__heading {
