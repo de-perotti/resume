@@ -19,16 +19,26 @@ const Experiences = () => (
         span="OCT 2024 - MAY 2025"
       >
         <Experience.DescriptionItem>
-          Delivered features that replaced critical workflows handled by tools like Pipefy, streamlining operations within the platform and enabling a phased migration that projected $50K+ in annual savings
+          Delivered features that replaced critical workflows handled by tools
+          like Pipefy, streamlining operations within the platform and enabling
+          a phased migration that projected $50K+ in annual savings
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Led the strategy to modernize the frontend monorepo, driving adoption of scalable architecture patterns, well-documented best practices, and high-quality example implementations; laying the groundwork for faster development, easier onboarding, and long-term maintainability
+          Led the strategy to modernize the frontend monorepo, driving adoption
+          of scalable architecture patterns, well-documented best practices, and
+          high-quality example implementations; laying the groundwork for faster
+          development, easier onboarding, and long-term maintainability
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Built internal tooling to track migration progress over time, providing visibility and accountability across multiple teams
+          Built internal tooling to track migration progress over time,
+          providing visibility and accountability across multiple teams
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Reduced frontend cycle time by 10–20% through automation of integration code generation and systematic adoption of shared standards and templates along with a formalized the RFC and design documentation process, improving technical alignment and reducing rework across cross-functional teams
+          Reduced frontend cycle time by 10–20% through automation of
+          integration code generation and systematic adoption of shared
+          standards and templates along with a formalized the RFC and design
+          documentation process, improving technical alignment and reducing
+          rework across cross-functional teams
         </Experience.DescriptionItem>
       </Experience.JobDescription>
     </Experience.Entry>
