@@ -19,24 +19,24 @@ const Experiences = () => (
         span="OCT 2024 - MAY 2025"
       >
         <Experience.DescriptionItem>
-          Delivered features that replaced critical workflows handled by tools
+          Feature development that replaced critical workflows handled by tools
           like Pipefy, streamlining operations within the platform and enabling
           a phased migration that projected $50K+ in annual savings
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Led the strategy to modernize the frontend monorepo, driving adoption
+          Strategic leadership in modernizing the frontend monorepo, driving adoption
           of scalable architecture patterns, well-documented best practices, and
           high-quality example implementations; laying the groundwork for faster
           development, easier onboarding, and long-term maintainability
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Built internal tooling to track migration progress over time,
+          Internal tooling development for tracking migration progress over time,
           providing visibility and accountability across multiple teams
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Reduced frontend cycle time by 10–20% through automation of
+          Frontend cycle time reduction by 10–20% through automation of
           integration code generation and systematic adoption of shared
-          standards and templates along with a formalized the RFC and design
+          standards and templates along with a formalized RFC and design
           documentation process, improving technical alignment and reducing
           rework across cross-functional teams
         </Experience.DescriptionItem>
@@ -56,15 +56,15 @@ const Experiences = () => (
       <Experience.Entries>
         <Experience.JobDescription
           title="Principal Frontend Engineer"
-          span="DEC 2023 - SET 2024"
+          span="DEC 2023 - SEP 2024"
         >
           <Experience.DescriptionItem>
-            Reduced change failure rate by 50% and increased lead times by 35%
-            by establishing communication channels that promoted the adoption of
+            Change failure rate reduction by 50% and lead time improvement by 35%
+            through establishment of communication channels that promoted the adoption of
             OpenAPI contracts and API code generation
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Lead the ideation and development of a proof of concept for an
+            Leadership in ideation and development of a proof of concept for an
             industry-changing application for capturing leads using direct
             acyclic graphs for dynamic forms generation (NestJS, HTMX,
             Typescript, React, and MySQL), leveraging technical expertise and
@@ -73,14 +73,14 @@ const Experiences = () => (
             changing requirements
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Allowed some applications to be SOC 2 ready by reducing the risk of
-            security vulnerabilities and increasing the speed of remediation
-            with the implementation of automated checks during integration steps
+            SOC 2 readiness achievement for applications through risk reduction of
+            security vulnerabilities and increased remediation speed with
+            implementation of automated checks during integration steps
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Decreased cycle time by 15%, by allowing the team to focus on
-            problematic workflows such as peer review time. This was possible
-            with the implementation of a DORA metrics application on top of JIRA
+            Cycle time reduction by 15% through team focus on
+            problematic workflows such as peer review time, enabled by
+            implementation of a DORA metrics application on top of JIRA
             and Bitbucket APIs (NestJS, Typescript, and MySQL)
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
@@ -96,26 +96,26 @@ const Experiences = () => (
           span="JAN 2023 - DEC 2023"
         >
           <Experience.DescriptionItem>
-            Lead the migration of a legacy application to a modern stack on top
+            Legacy application migration leadership to a modern stack on top
             of a design system which enabled new features to be developed
             quickly keeping lead times at an all-time low
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Established architecture patterns and best practices, enabling
+            Architecture patterns and best practices establishment, enabling
             junior developers and new hires to ramp up quickly to enough
             self-sufficiency, utilizing instructional design principles to
             develop training materials and support the onboarding process,
             showcasing my ability to communicate complex concepts simply
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Pushed adoption of Typescript reducing change failure rate by 80%
+            Typescript adoption initiative reducing change failure rate by 80%
             and increasing code quality, demonstrating a commitment to best
             practices and continuous learning. Problem-solving skills were
             necessary to identify and address technical debt, leading to
             improved overall project health
           </Experience.DescriptionItem>
           <Experience.DescriptionItem>
-            Defined best practices for mono repo management and CI/CD pipelines
+            Defined best practices for monorepo management and CI/CD pipelines
             (Bitbucket, AWS - Code Build, Code Deploy, Code Pipeline, ECR, ECS,
             Cloudwatch), enabling the team to deploy multiple times a day with
             confidence
@@ -139,18 +139,18 @@ const Experiences = () => (
         span="MAY 2021 - DEC 2022"
       >
         <Experience.DescriptionItem>
-          Increased GMV by more than 300% over 6 months by implementing a series
+          GMV growth of more than 300% over 6 months through implementation of a series
           of features, such as cart management, product listing, and free-tier
           price listing, utilizing business understanding and analytical skills
           to drive revenue growth
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Built scalable and testable applications using React, Typescript and
+          Development of scalable and testable applications using React, Typescript and
           Express on top of Firebase and GCP
         </Experience.DescriptionItem>
         <Experience.DescriptionItem>
-          Reduced the time to hire from 90 days to 40 days and increased the
-          quality of the candidates by refining the hiring process for frontend
+          Time-to-hire reduction from 90 days to 40 days and candidate quality improvement
+          through refinement of the hiring process for frontend
           developers from the moment they got into our hiring pipeline,
           demonstrating leadership skills and a commitment to process
           improvement. Emotional intelligence was required to support the growth
