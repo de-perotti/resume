@@ -1,0 +1,185 @@
+.hacker-console {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 500px;
+  max-height: 400px;
+  background: rgba(0, 0, 0, 0.95);
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  z-index: 9998;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 0, 0.5),
+    inset 0 0 20px rgba(0, 255, 0, 0.1);
+  font-family: 'Courier New', monospace;
+  backdrop-filter: blur(10px);
+  animation: slideIn 0.5s ease-out;
+
+  .console-header {
+    background: linear-gradient(90deg, #001100, #003300);
+    padding: 8px 12px;
+    border-bottom: 1px solid #00ff00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .console-title {
+      color: #00ff00;
+      font-size: 14px;
+      font-weight: bold;
+      text-shadow: 0 0 5px #00ff00;
+    }
+
+    .console-controls {
+      display: flex;
+      gap: 8px;
+
+      span {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &.minimize {
+          background: #ffaa00;
+          color: #000;
+        }
+
+        &.maximize {
+          background: #00ff00;
+          color: #000;
+        }
+
+        &.close {
+          background: #ff0000;
+          color: #fff;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0 0 5px currentColor;
+        }
+      }
+    }
+  }
+
+  .console-body {
+    padding: 15px;
+    height: 350px;
+    overflow-y: auto;
+    position: relative;
+    background: 
+      linear-gradient(0deg, transparent 24%, rgba(0, 255, 0, 0.03) 25%, rgba(0, 255, 0, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 255, 0, 0.03) 75%, rgba(0, 255, 0, 0.03) 76%, transparent 77%, transparent),
+      radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.8), rgba(0, 50, 0, 0.9));
+    background-size: 100% 4px, 100% 100%;
+
+    .console-line {
+      color: #00ff00;
+      font-size: 12px;
+      line-height: 1.4;
+      margin-bottom: 2px;
+      text-shadow: 0 0 3px #00ff00;
+      white-space: pre;
+      opacity: 0;
+      animation: fadeIn 0.3s ease forwards;
+
+      &.current {
+        opacity: 1;
+      }
+    }
+
+    .cursor {
+      animation: blink 1s infinite;
+      background: #00ff00;
+      color: #000;
+    }
+
+    .glitch-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 2px,
+          rgba(0, 255, 0, 0.03) 2px,
+          rgba(0, 255, 0, 0.03) 4px
+        );
+      pointer-events: none;
+      animation: scanlines 0.1s linear infinite;
+    }
+
+    /* Custom scrollbar */
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #00ff00;
+      border-radius: 4px;
+      box-shadow: 0 0 5px #00ff00;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #00aa00;
+    }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@keyframes scanlines {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(4px); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hacker-console {
+    width: 90vw;
+    right: 5vw;
+    max-height: 300px;
+
+    .console-body {
+      height: 250px;
+      padding: 10px;
+    }
+  }
+}

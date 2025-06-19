@@ -1,0 +1,166 @@
+.cyberpunk-mascot {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  pointer-events: none;
+  z-index: 10000;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  .mascot-body {
+    position: relative;
+    animation: bounce 2s infinite;
+  }
+
+  .mascot-head {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    animation: pulse 1s infinite alternate;
+  }
+
+  .eye {
+    width: 8px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    animation: sparkle 2s infinite;
+  }
+
+  .left-eye {
+    left: 10px;
+  }
+
+  .right-eye {
+    right: 10px;
+  }
+
+  .mouth {
+    width: 15px;
+    height: 8px;
+    border: 2px solid #000;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mascot-arms {
+    position: relative;
+    top: -10px;
+  }
+
+  .arm {
+    width: 20px;
+    height: 6px;
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+    border-radius: 10px;
+    position: absolute;
+    animation: wave 1.5s infinite;
+  }
+
+  .left-arm {
+    left: 5px;
+    transform-origin: right center;
+  }
+
+  .right-arm {
+    right: 5px;
+    transform-origin: left center;
+  }
+
+  .mascot-legs {
+    position: relative;
+    top: -5px;
+  }
+
+  .leg {
+    width: 8px;
+    height: 25px;
+    background: linear-gradient(180deg, #00ffff, #ff00ff);
+    border-radius: 4px;
+    position: absolute;
+    animation: march 1s infinite alternate;
+  }
+
+  .left-leg {
+    left: 18px;
+  }
+
+  .right-leg {
+    right: 18px;
+    animation-delay: 0.5s;
+  }
+
+  .speech-bubble {
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #00ff00;
+    padding: 8px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: monospace;
+    white-space: nowrap;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    animation: float 2s infinite;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid #00ffff;
+    }
+  }
+
+  &.blinking {
+    .eye {
+      height: 2px;
+      background: #00ffff;
+    }
+  }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); }
+  100% { box-shadow: 0 0 30px rgba(255, 0, 255, 0.8); }
+}
+
+@keyframes sparkle {
+  0%, 100% { background: #000; }
+  50% { background: #00ffff; }
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+}
+
+@keyframes march {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-3px); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
